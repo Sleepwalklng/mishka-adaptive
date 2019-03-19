@@ -186,6 +186,218 @@ img {
 .main-nav__deliver {
   display: none; }
 
+.handmade {
+  position: relative;
+  background: #f9f9f9;
+  margin-bottom: 30px; }
+
+.handmade__wrapper {
+  position: relative;
+  min-height: 505px;
+  padding-top: 1px;
+  background: #f9f9f9 url("../../img/hero-mobile.jpg") no-repeat 50% top; }
+
+.handmade__title {
+  text-align: center;
+  margin-top: 87px;
+  font: bold 24px/30px Verdana, Arial, sans-serif; }
+
+.handmade__items {
+  position: absolute;
+  bottom: 0;
+  width: 100%;
+  margin: 0;
+  padding: 0;
+  list-style: none; }
+
+.handmade__item a {
+  display: block;
+  padding: 27px 30px;
+  font: bold 20px/30px Tahoma, Arial, sans-serif;
+  text-decoration: none;
+  color: #ffffff; }
+
+.handmade__item {
+  position: relative; }
+  .handmade__item--interior {
+    background-color: #63d1bb; }
+  .handmade__item--interior:hover, .handmade__item--interior:active {
+    background-color: #59d5bc; }
+  .handmade__item--toy {
+    background-color: #56c3b2; }
+  .handmade__item--toy:hover, .handmade__item--toy:active {
+    background-color: #46c1ae; }
+  .handmade__item--interior:active a,
+  .handmade__item--toy:active a {
+    color: #8be2d0; }
+
+.handmade__item--interior .icon-interior {
+  position: absolute;
+  top: 27px;
+  right: 20px;
+  width: 40.219px;
+  height: 62.411px;
+  fill: #3bb09d; }
+
+.handmade__item--interior:hover .icon-interior {
+  fill: #29a592; }
+
+.handmade__item--interior:active .icon-interior {
+  fill: #44c0aa; }
+
+.handmade__item--toy .icon-toy {
+  position: absolute;
+  top: 27px;
+  right: 20px;
+  width: 60px;
+  height: 59.62px;
+  fill: #35a999; }
+
+.handmade__item--toy:hover .icon-toy {
+  fill: #239f8e; }
+
+.handmade__item--toy:active .icon-toy {
+  fill: #37b2a0; }
+
+.featured__wrapper {
+  position: relative;
+  margin-bottom: 30px;
+  padding: 0 30px;
+  font: normal 14px/24px "OpenSans-Regular", Arial, sans-serif; }
+
+.featured__title,
+.featured__label {
+  margin: 0;
+  padding: 0; }
+
+.featured__label br {
+  display: none; }
+
+.featured__title {
+  margin-bottom: 12px;
+  font: bold 24px/30px Tahoma, Arial, sans-serif; }
+
+.featured__label {
+  margin-bottom: 30px;
+  font-family: "OpenSans-Bold", sans-serif;
+  font-size: 16px;
+  line-height: 16px;
+  text-transform: uppercase;
+  color: #a1e3d6; }
+
+.featured__desc {
+  margin: 0;
+  margin-bottom: 30px;
+  padding: 0;
+  font-size: 15px;
+  line-height: 24px; }
+
+.featured__info {
+  border-collapse: collapse;
+  width: 100%;
+  margin-bottom: 30px;
+  font-size: 15px;
+  line-height: 20px; }
+
+.featured__info tr {
+  border-bottom: 1px solid #ececec; }
+
+.featured__info td {
+  padding: 12px 0; }
+
+.featured__parametr {
+  width: 100px; }
+
+.featured__img {
+  margin-bottom: 30px;
+  text-align: center; }
+
+.featured__price {
+  margin-bottom: 30px;
+  font: bold 18px/24px Verdana, Arial, sans-serif;
+  text-align: center;
+  color: #444444; }
+
+.btn {
+  display: block;
+  padding: 16px 0;
+  font-size: 16px;
+  line-height: 16px;
+  font-weight: bold;
+  text-decoration: none;
+  text-transform: uppercase;
+  text-align: center;
+  color: #444444;
+  border: 2px solid #444444;
+  width: 230px;
+  margin: 0 auto; }
+  .btn:hover {
+    background-color: #444444;
+    color: #ffffff; }
+  .btn:active {
+    color: #7c7c7c; }
+
+.about-us {
+  background: #ffffff url("../../img/zigzag-line-desktop.png") repeat-x;
+  padding-top: 1px;
+  margin-bottom: 60px; }
+
+.about-us__wrapper {
+  padding: 0 30px; }
+
+.about-us__title {
+  margin: 30px 0;
+  font: bold 24px/30px Tahoma, Arial, sans-serif; }
+
+.about-us__list {
+  margin: 0;
+  padding: 0;
+  list-style: none; }
+
+.about-us__list-item--icon {
+  position: absolute;
+  top: 0;
+  left: 0;
+  fill: #63d1bb; }
+
+.about-us__list-item .icon-feature-1 {
+  left: 8px;
+  width: 31.972px;
+  height: 37.301px; }
+
+.about-us__list-item .icon-feature-2 {
+  left: 2px;
+  width: 34.373px;
+  height: 34.373px; }
+
+.about-us__list-item .icon-feature-3 {
+  width: 46.575px;
+  height: 27.332px; }
+
+.about-us__list-item .icon-feature-4 {
+  left: -2px;
+  width: 54.156px;
+  height: 23.183px; }
+
+.about-us__list-item .icon-feature-5 {
+  left: 8px;
+  width: 33.05px;
+  height: 27.857px; }
+
+.about-us__list-item .icon-feature-6 {
+  left: 2px;
+  width: 32.666px;
+  height: 32.486px; }
+
+.about-us__list-item {
+  position: relative;
+  padding-top: 57px;
+  margin-bottom: 55px;
+  font: bold 16px Verdana, Arial, sans-serif; }
+
+.about-us__list-item:last-child {
+  margin-bottom: 0; }
+
 @media (min-width: 768px) {
   .page-header__logo {
     width: 48%;
@@ -258,7 +470,119 @@ img {
     padding-right: 0; }
   .main-nav__user-item--search .icon-search,
   .main-nav__user-item--cart .icon-cart {
-    top: 35px; } }
+    top: 35px; }
+  .handmade__wrapper {
+    width: auto;
+    min-height: 740px;
+    background: #f9f9f9 url("../../img/hero-tablet.jpg") no-repeat 50% 50%; }
+  .handmade__title {
+    margin-top: 156px;
+    padding: 0 80px;
+    font-size: 41px;
+    line-height: 50px; }
+  .handmade__title br {
+    display: none; }
+  .handmade__items {
+    bottom: -10px;
+    font-size: 0; }
+  .handmade__item {
+    display: inline-block;
+    width: 50%; }
+    .handmade__item--interior {
+      background: #63d1bb url("../../img/zigzag-fill-desktop.png") repeat-x bottom; }
+    .handmade__item--toy {
+      background: #56c3b2 url("../../img/zigzag-fill-desktop.png") repeat-x bottom; }
+  .handmade__item a {
+    padding: 30px;
+    padding-bottom: 40px; }
+  .featured__wrapper {
+    width: auto;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-align: stretch;
+        -ms-flex-align: stretch;
+            align-items: stretch;
+    -webkit-box-pack: justify;
+        -ms-flex-pack: justify;
+            justify-content: space-between;
+    -ms-flex-wrap: wrap;
+        flex-wrap: wrap;
+    margin-bottom: 50px;
+    padding-left: 0;
+    padding-right: 0; }
+  .featured__title {
+    -ms-flex-preferred-size: 80.5%;
+        flex-basis: 80.5%;
+    margin: 0;
+    margin-bottom: 58px;
+    font-size: 40px;
+    -webkit-box-flex: 1;
+        -ms-flex-positive: 1;
+            flex-grow: 1;
+    line-height: 50px;
+    padding: 0; }
+  .featured__label {
+    -ms-flex-preferred-size: 13.8%;
+        flex-basis: 13.8%;
+    margin: 0;
+    margin-bottom: 58px;
+    padding-top: 12px;
+    text-align: center; }
+  .featured__intro {
+    width: 44%;
+    margin: 0; }
+  .featured__desc {
+    margin-bottom: 50px; }
+  .featured__img {
+    width: 51%;
+    margin: 0;
+    text-align: right; }
+  .feature__ordered {
+    position: absolute;
+    bottom: 8px;
+    width: 40.5%; }
+  .about-us {
+    margin-top: 50px;
+    margin-bottom: 80px; }
+  .about-us__wrapper {
+    width: auto; }
+  .about-us__title {
+    margin: 50px 0;
+    font-size: 40px;
+    line-height: 50px; }
+  .about-us__list {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-wrap: wrap;
+        flex-wrap: wrap;
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    font-size: 0; }
+  .about-us__list-item {
+    width: 50%;
+    vertical-align: top;
+    font-size: 20px; }
+    .about-us__list-item--eko, .about-us__list-item--ball {
+      -webkit-box-ordinal-group: 2;
+          -ms-flex-order: 1;
+              order: 1; }
+    .about-us__list-item--skan, .about-us__list-item--rocket {
+      -webkit-box-ordinal-group: 3;
+          -ms-flex-order: 2;
+              order: 2; }
+    .about-us__list-item--hart {
+      -webkit-box-ordinal-group: 4;
+          -ms-flex-order: 3;
+              order: 3; }
+    .about-us__list-item--box {
+      -webkit-box-ordinal-group: 5;
+          -ms-flex-order: 4;
+              order: 4; }
+  .about-us__list-item:nth-child(3n) {
+    margin-bottom: 0; } }
 
 @media (min-width: 1150px) {
   .page-header__logo {
@@ -314,7 +638,52 @@ img {
     padding-top: 20px;
     padding-bottom: 20px; }
   .main-nav__toggle {
-    display: none; } }
+    display: none; }
+  .handmade__wrapper {
+    background: #f9f9f9 url("../../img/hero-desktop.jpg") no-repeat 50% 50%;
+    background-size: cover; }
+  .handmade__title {
+    margin-top: 150px;
+    padding: 0 100px;
+    font-size: 50px;
+    line-height: 57px; }
+  .featured__wrapper {
+    margin-bottom: 65px; }
+  .featured__title {
+    position: absolute;
+    top: 60px;
+    left: 175px;
+    font-size: 50px;
+    line-height: 57px; }
+  .featured__label {
+    position: absolute;
+    width: 175px;
+    top: 70px;
+    left: 0; }
+  .featured__intro {
+    width: 290px;
+    margin-top: 140px;
+    margin-left: 175px; }
+  .featured__img {
+    width: 525px; }
+  .feature__ordered {
+    width: 290px;
+    margin-left: 175px; }
+  .about-us {
+    margin-bottom: 90px; }
+  .about-us__wrapper {
+    padding-left: 0;
+    padding-right: 0; }
+  .about-us__title {
+    margin-top: 65px;
+    margin-bottom: 55px;
+    margin-left: 17%;
+    font-size: 50px;
+    line-height: 57px; }
+  .about-us__list {
+    margin-left: 175px; }
+  .about-us__list-item {
+    width: 350x; } }
 
 @media (max-width: 767px) {
   .main-nav--closed .main-nav__item {
@@ -335,9 +704,42 @@ img {
 @media (min-width: 768px) and (min-width: 768px) {
     .main-nav__wrapper {
       width: 87%;
+      margin: 0 auto; }
+    .handmade__wrapper {
+      width: 87%;
+      margin: 0 auto; }
+    .featured__wrapper {
+      width: 87%;
+      margin: 0 auto; }
+    .about-us__wrapper {
+      width: 87%;
       margin: 0 auto; } }
 
 @media (min-width: 768px) and (min-width: 1150px) {
     .main-nav__wrapper {
       width: 91%;
+      max-width: 1050px; }
+    .handmade__wrapper {
+      width: 91%;
+      max-width: 1050px; }
+    .featured__wrapper {
+      width: 91%;
+      max-width: 1050px; }
+    .about-us__wrapper {
+      width: 91%;
       max-width: 1050px; } }
+
+@media (-webkit-min-device-pixel-ratio: 1.5), (min-resolution: 144dpi), (min-resolution: 1.5dppx) {
+    .handmade__wrapper {
+      background-image: url("../../img/hero-mobile-2x.jpg");
+      background-size: 320px auto; } }
+
+@media (min-width: 768px) and (-webkit-min-device-pixel-ratio: 1.5), (min-width: 768px) and (min-resolution: 144dpi), (min-width: 768px) and (min-resolution: 1.5dppx) {
+    .handmade__wrapper {
+      background-image: url("../../img/hero-tablet-2x.jpg");
+      background-size: 768px auto; } }
+
+@media (min-width: 1150px) and (-webkit-min-device-pixel-ratio: 1.5), (min-width: 1150px) and (min-resolution: 144dpi), (min-width: 1150px) and (min-resolution: 1.5dppx) {
+    .handmade__wrapper {
+      background-image: url("../../img/hero-desktop-2x.jpg");
+      background-size: 1150px auto; } }
