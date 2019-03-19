@@ -1,5 +1,5 @@
 {
-  "name": "barbershop-adaptive",
+  "name": "mishka",
   "version": "1.0.0",
   "description": "",
   "main": "gulpfile.js",
@@ -8,14 +8,14 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/Sleepwalklng/barbershop-adaptive.git"
+    "url": "git+https://github.com/Sleepwalklng/mishka-adaptive.git"
   },
   "author": "",
   "license": "ISC",
   "bugs": {
-    "url": "https://github.com/Sleepwalklng/barbershop-adaptive/issues"
+    "url": "https://github.com/Sleepwalklng/mishka-adaptive/issues"
   },
-  "homepage": "https://github.com/Sleepwalklng/barbershop-adaptive#readme",
+  "homepage": "https://github.com/Sleepwalklng/mishka-adaptive#readme",
   "devDependencies": {
     "gulp": "^3.9.1",
     "autoprefixer": "^7.1.1",

@@ -82,7 +82,7 @@ gulp.task('img', function () {
 
 // Сборка SVG-спрайта
 gulp.task('svgstore', function (callback) {
-	var spritePath = 'app/img/svg-sprite';
+	var spritePath = 'app/img/svg';
 	if(fileExist(spritePath) !== false) {
 		return gulp.src(spritePath + '/*.svg')
 			.pipe(svgmin(function (file) {
@@ -98,8 +98,8 @@ gulp.task('svgstore', function (callback) {
 			.pipe(cheerio(function ($) {
 				$('svg').attr('style',  'display:none');
 			}))
-			.pipe(rename('sprite-svg.svg'))
-			.pipe(gulp.dest('build/img/'));
+			.pipe(rename('sprite.svg'))
+			.pipe(gulp.dest('app/img/'));
 	}
 	else {
 		console.log('Нет файлов для сборки SVG-спрайта');
