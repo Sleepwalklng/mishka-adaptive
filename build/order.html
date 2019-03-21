@@ -1,0 +1,203 @@
+﻿<!DOCTYPE html>
+<html lang="ru">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Mishka</title>
+  <link rel="stylesheet" href="css/min/style.min.css"></head>
+<body>
+
+  <header class="page-header">
+    <h1 class="visually-hidden">Mishka</h1>
+    <nav class="main-nav  main-nav--closed">
+      <button class="main-nav__toggle" type="button">Открыть меню</button>
+      <div class="main-nav__wrapper">
+        <div class="page-header__logo">
+          <a href="index.html">
+            <picture>
+              <source media="(min-width: 1150px)" srcset="img/mishka-logo-desktop.svg">
+              <source media="(min-width: 768px)" srcset="img/mishka-logo-tablet.svg">
+              <img src="img/mishka-logo-mobile.svg" alt="Мишка">
+            </picture>
+          </a>
+        </div>
+        <ul class="main-nav__items">
+          <li class="main-nav__item"><a href="catalog.html">Каталог товаров</a></li>
+          <li class="main-nav__item"><a>Вязание на заказ</a></li>
+        </ul>
+        <ul class="main-nav__user-items">
+          <li class="main-nav__user-item  main-nav__user-item--search">
+            <a href="#">
+              <svg class="icon icon-search">
+                <use xlink:href="sprite.svg#icon-search" ></use>
+              </svg>
+            Поиск по сайту</a>
+          </li>
+          <li class="main-nav__user-item  main-nav__user-item--cart">
+            <a href="#">
+              <svg class="icon icon-cart">
+                <use xlink:href="sprite.svg#icon-cart"></use>
+              </svg>
+            Корзина: пока пуста</a>
+          </li>
+        </ul>
+        <ul class="main-nav__sales">
+          <li class="main-nav__item  main-nav__item--sales"><a class="main-nav__link" href="#">Новые поступления</a></li>
+          <li class="main-nav__item  main-nav__item--sales"><a class="main-nav__link" href="#">Распродажа</a></li>
+        </ul>
+        <p class="main-nav__deliver">Бесплатная доставка по России</p>
+      </div>
+    </nav>
+  </header>
+  <section class="order">
+    <h2 class="order__title">Вязание на заказ</h2>
+    <div class="order__wrapper">
+      <div class="order-form__item-wrapper description">
+        <p class="order__desc">
+        Мы будем рады воплотить в жизнь ваши пожелания! <br> Заполните простую форму
+        заказа, и мы свяжемся с вами, чтобы уточнить детали.
+        </p>
+      </div>
+      <form class="order-form" action="#" method="post">
+        <div class="order-form__item">
+          <div class="order-form__item-wrapper">
+            <div class="order-form__filter-name">
+               <p>Тип</p>
+           </div>
+           <div class="order-form__item-list radio">
+             <input class="item-radio" type="radio" name="type" id="item-radio-1">
+             <label for="item-radio-1">Аксессуар для интерьера</label>
+             <input class="item-radio" type="radio" name="type" id="item-radio-2">
+             <label for="item-radio-2">Детская игрушка</label>
+           </div>
+          </div>
+        </div>
+        <div class="order-form__item">
+          <div class="order-form__item-wrapper">
+            <div class="order-form__filter-name">
+               <p>Цвет</p>
+           </div>
+           <div class="order-form__item-list">
+              <input class="item-checkbox" type="checkbox" name="color-1" id="item-checkbox-1">
+              <label for="item-checkbox-1">Белый</label>
+              <input class="item-checkbox" type="checkbox" name="color-2" id="item-checkbox-2" checked>
+              <label for="item-checkbox-2">Серый</label>
+              <input class="item-checkbox" type="checkbox" name="color-3" id="item-checkbox-3">
+              <label for="item-checkbox-3">&laquo;Тиффани&raquo;</label>
+              <input class="item-checkbox" type="checkbox" name="color-4" id="item-checkbox-4">
+              <label for="item-checkbox-4">Черный</label>
+              <input class="item-checkbox" type="checkbox" name="color-5" id="item-checkbox-5">
+              <label for="item-checkbox-5">Розовый</label>
+              <input class="item-checkbox" type="checkbox" name="color-6" id="item-checkbox-6">
+              <label for="item-checkbox-6">Оранжевый</label>
+            </div>
+          </div>
+        </div>
+        <div class="order-form__item">
+          <div class="order-form__item-wrapper">
+            <div class="order-form__filter-name">
+              <p>ФИО</p>
+            </div>
+            <div class="order-form__item-list">
+              <div class="order-form__item-list-box">
+                <label for="last-name" class="item-text__name">Фамилия:</label>
+                <input class="item-text" type="text" name="last-name" placeholder="Укажите фамилию" id="last-name">
+              </div>
+              <div class="order-form__item-list-box">
+                <label for="first-name" class="item-text__name">Имя:</label>
+                <input class="item-text" type="text" name="first-name" placeholder="Укажите ваше имя" id="first-name">
+              </div>
+              <div class="order-form__item-list-box">
+                <label for="middle-name" class="item-text__name">Отчество:</label>
+                <input class="item-text error" type="text" name="middle-name" placeholder="Отчество, если желаете" id="middle-name">
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="order-form__item  name">
+            <div class="order-form__item-box">
+              <div class="order-form__item-wrapper phone">
+                <div class="order-form__filter-name">
+                  <p>Тел</p>
+                </div>
+                <div class="item-box">
+                  <input class="item-phone  item-text" type="tel" name="phone" placeholder="+7 XXX XX XX">
+                  <svg class="icon icon-phone">
+                    <use xlink:href="sprite.svg#icon-phone"></use>
+                  </svg>
+                </div>
+              </div>
+            </div>
+            <div class="order-form__item-box">
+              <div class="order-form__item-wrapper e-mail">
+                <div class="order-form__filter-name">
+                  <p>E-mail</p>
+                </div>
+                <div class="item-box">
+                 <input class="item-mail  item-text" type="email" name="email" placeholder="Ваш e-mail">
+                 <svg class="icon icon-mail">
+                   <use xlink:href="sprite.svg#icon-mail"></use>
+                 </svg>
+               </div>
+            </div>
+          </div>
+       </div>
+       <div class="order-form__item">
+         <div class="order-form__item-wrapper">
+           <div class="order-form__filter-name">
+             <p>Доп</p>
+           </div>
+           <div class="order-form__item-list">
+             <textarea class="item-textarea item-text" placeholder="Опишите все ваши пожелания к заказу"></textarea>
+           </div>
+        </div>
+      </div>
+      <div class="">
+        <div class="order-form__item-wrapper  requared-fill-box">
+          <input class="btn" type="submit" value="Отправить заказ">
+          <p class="requared-fill">Все поля являются обязательными</p>
+        </div>
+      </div>
+      </form>
+    </div>
+  </section>
+  <footer class="page-footer">
+    <div class="page-footer__wrapper">
+      <p class="page-footer__logo page-footer__logo--hidden">
+        <svg class="icon footer-logo">
+          <use xlink:href="sprite.svg#logo-footer"></use>
+        </svg>
+      </p>
+      <p class="page-footer__social">
+        <span class="social-links">
+          <a class="social-link" href="#">Мы в Инстаграме
+            <svg class="icon social-link--icon social-link--icon-insta">
+              <use xlink:href="sprite.svg#icon-insta"></use>
+            </svg>
+          </a>
+          <a class="social-link" href="#">Мы в Фейсбуке
+            <svg class="icon social-link--icon social-link--icon-fb">
+              <use xlink:href="sprite.svg#icon-fb"></use>
+            </svg>
+          </a>
+          <a class="social-link" href="#">Мы в Твитере
+            <svg class="icon social-link--icon social-link--icon-tw">
+              <use xlink:href="sprite.svg#icon-twitter"></use>
+            </svg>
+          </a>
+        </span>
+      </p>
+      <p class="page-footer__copyright">
+        Учебный макет:
+        <a class="page-footer__copyright-link" href="№">HTML Academy
+          <svg class="icon icon-htmlacademy">
+            <use xlink:href="sprite.svg#icon-htmlacademy"></use>
+          </svg>
+        </a>
+      </p>
+    </div>
+  </footer>
+
+  <script src="js/main.js"></script>
+</body>
+</html>
